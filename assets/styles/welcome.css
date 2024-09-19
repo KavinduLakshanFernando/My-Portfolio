@@ -1,0 +1,38 @@
+#welcome-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#welcome-section>div:nth-child(1)>h4{
+    font-size: 25px;
+    font-family: "sedan SC";
+    font-style: normal;
+    font-weight: normal;
+}
+#welcome-text{
+    /*margin-left: 350px;*/
+    margin-top: 135px;
+    margin-left: 205px;
+}
+#welcome-text>h3{
+    font-size: 30px;
+    font-family: sedan SC;
+    text-transform: uppercase;
+    margin-top: -38px;
+    /*font-style: italic;*/
+}
+#welcome-text>p{
+    font-size: 20px;
+    margin-top: -33px;
+}
+#s-icons{
+    margin-top: -20px;
+}
+#my-image1{
+    margin-left: 150px;
+    margin-top: 80px;
+}
+#welcome-text>p>b{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}

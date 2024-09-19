@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+header{
+    height: 50px;
+    width: 100%;
+    border-bottom: 3px solid black;
+    position: fixed;
+    background: white;
+
+}
+header>h4{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: quantico;
+
+}
+header>nav{
+    top: 8px;
+    height: 35px;
+    width: 550px;
+    background-color: black;
+    border-radius: 50px;
+    position: fixed;
+    text-align: center;
+    margin-left: 320px;
+}
+header>nav>ul>li{
+    list-style: none;
+    /*display: inline;*/
+    color: white;
+    margin: 0px 10px 20px 10px;
+    display: inline-block;
+}
+
+header>nav>ul{
+    margin-top: 8px;
+    margin-left: -34px;
+}
+
