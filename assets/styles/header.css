@@ -9,7 +9,7 @@ header{
     width: 100%;
     border-bottom: 3px solid black;
     position: fixed;
-    background: white;
+    background: #D3D3D3;
 
 }
 header>h4{
