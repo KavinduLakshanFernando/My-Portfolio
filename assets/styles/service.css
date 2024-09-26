@@ -1,0 +1,56 @@
+main>section>h2{
+    text-align: center;
+    font-size: 35px;
+}
+#service-1-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+#service-1-div>div{
+    width: 250px;
+    height: 200px;
+    background: #edf2fb;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+#service-1-div>div>img{
+    align-content: center;
+}
+#service-1-div>div:nth-child(1){
+    margin-left: 130px;
+}
+#service-1-div>div:nth-child(2){
+}
+#service-1-div>div:nth-child(3){
+    margin-right: 130px;
+}
+
+#service-2-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#service-2-div>div{
+    width: 250px;
+    height: 200px;
+    background: #edf2fb;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 30px;
+
+}
+#service-2-div>div:nth-child(1){
+    margin-right: 50px;
+}
+#service-2-div>div:nth-child(2){
+    margin-right: 300px;
+}
+#service-2-div>div:hover{
+    color: white;
+    background: #D3D3D3;
+}

@@ -1,0 +1,32 @@
+#container-p{
+   // display: flex;
+}
+#container-p>div{
+    width: 50%;
+    height: 8rem;
+    border: 0.2rem solid black;
+    background: #edf2fb;
+    margin-left: 3rem;
+    border-radius: 3rem;
+}
+#container-p>div>h3{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+/*#container-p>div>p{*/
+/*    margin-top: -0.5rem;*/
+/*    margin-left: 4rem;*/
+/*}*/
+
+
+#container-p>div:nth-child(1)>.img-1{
+    margin-top: -2rem;
+    margin-left: 26rem;
+}
+#container-p>div:nth-child(1)>.img-2{
+    margin-top: 3rem;
+
+}
+#container-p>div:nth-child(2){
+
+}
