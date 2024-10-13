@@ -1,0 +1,38 @@
+#service{
+    padding: 100px;
+    margin-top: -200px;
+
+}
+#service>div>h2{
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    text-shadow: 2px 3px 6px #ffffff;
+}
+#card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#card>div{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 5px 8px 14px 2px rgb(100, 110, 110);
+    border-radius: 30px;
+    max-width: 210px;
+    min-width: 180px;
+    min-height: 250px;
+    max-height: 350px;
+    margin: 20px;
+    color: #ffffff;
+}
+#card>div:hover{
+    /*border: 2px solid #f7f718;*/
+}
+
+#card>div>img, h4{
+    margin: auto;
+}

@@ -1,0 +1,28 @@
+#assignment-part{
+    padding: 100px;
+    margin-top: -105px;
+}
+
+#assignments{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#assignments>div{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 3px 5px 0px rgb(95, 96, 96);
+    border-radius: 30px;
+    max-width: 210px;
+    min-width: 180px;
+    min-height: 250px;
+    max-height: 350px;
+    margin: 20px;
+}
+#assignment-part>div>h2{
+    text-align: center;
+    font-size: 32px;
+}

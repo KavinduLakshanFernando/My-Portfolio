@@ -1,0 +1,77 @@
+#about{
+    margin-top: -120px;
+    padding: 100px;
+}
+#about>div>h2{
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    text-shadow: 2px 3px 6px white;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#about>section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#my-image2>img{
+    margin-left: 10px;
+    width: 300px;
+    border-radius: 50px;
+    /*border: 2px solid black;*/
+    box-shadow: 0px 3px 5px 0px rgb(95, 96, 96);
+}
+#details{
+    font-family: Georgia ;
+    margin-left: 350px;
+    margin-top: -310px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    box-shadow: 5px 8px 14px 2px rgb(100, 110, 110);
+    width: 900px;
+    height: 200px;
+    border-radius: 30px;
+
+}
+#btn{
+    margin-top: -155px;
+    margin-left: 450px;
+
+}
+.button{
+    background-color: #f7f718;
+    color: #000000;
+    width: 95px;
+    height: 28px;
+    border-radius: 3rem;
+    /*box-shadow: 0 0 0.5rem #ffffff;*/
+    transition: 0.5s ease;
+}
+.button:hover{
+    border: 2px solid #ffffff;
+}
+/*Tab Size*/
+@media all and (max-width: 768px) {
+    #my-image2{
+        margin-top: 42px;
+        margin-left: 8px;
+        width: 250px;
+
+    }
+    #details{
+        margin-top: 10px;
+        margin-left: -40px;
+        padding: 15px;
+        font-size: 15px;
+    }
+    #btn{
+        margin-top: -295px;
+        margin-left: 325px;
+    }
+}
+
+
