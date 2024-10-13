@@ -59,11 +59,69 @@
     color: white;
     /*box-shadow: 0 0 0.5rem #f7f718;*/
 }
+/*Tab Size*/
 @media all and (max-width: 768px) {
     #welcome-text{
-        margin-top: -25px;
+        margin-top: -10px;
+        margin-left: -135px;
+    }
+    #s-icons{
+        margin-top: 20px;
+        margin-left: -210px;
     }
     #my-image1{
-        margin-top: 45px;
+        margin-top: -295px;
+        margin-left: 135px;
+    }
+    #welcome-text>h4{
+        font-size: 45px;
+        font-family:sans-serif;
+    }
+    #welcome-text>h3{
+        font-size: 40px;
+    }
+    #welcome-text>p{
+        font-size: 25px;
+    }
+    #my-image1>img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/*Phone Size*/
+@media all and (max-width: 435px) {
+    #welcome-text{
+        margin-top: -10px;
+        margin-left: 2px;
+    }
+    #s-icons{
+        margin-top: 20px;
+        margin-left: -30px;
+    }
+    /*#my-image1{*/
+    /*    margin-top: -295px;*/
+    /*    margin-left: 135px;*/
+    /*}*/
+    #welcome-text>h4{
+        font-size: 35px;
+        font-family:sans-serif;
+    }
+    #welcome-text>h3{
+        margin-top: -8px;
+        font-size: 30px;
+    }
+    #welcome-text>p{
+        font-size: 17px;
+        margin-top: -30px;
+    }
+    #my-image1>img{
+        width: 200px;
+        height: 200px;
+        margin-top: 75px;
+        margin-left: -20px;
+    }
+    #s-icons>img{
+        margin: 15px;
     }
 }
