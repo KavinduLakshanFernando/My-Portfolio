@@ -1,5 +1,5 @@
 #about{
-    margin-top: -120px;
+    margin-top: -175px;
     padding: 100px;
 }
 #about>div>h2{
@@ -25,16 +25,17 @@
     /*border: 2px solid black;*/
     box-shadow: 0px 3px 5px 0px rgb(95, 96, 96);
 }
-#details{
+#details>p{
     font-family: Georgia ;
     margin-left: 350px;
     margin-top: -310px;
     font-size: 1.5rem;
     color: #ffffff;
     box-shadow: 5px 8px 14px 2px rgb(100, 110, 110);
-    width: 900px;
+    width: 780px;
     height: 200px;
     border-radius: 30px;
+    padding: 10px;
 
 }
 #btn{
@@ -48,30 +49,70 @@
     width: 95px;
     height: 28px;
     border-radius: 3rem;
-    /*box-shadow: 0 0 0.5rem #ffffff;*/
     transition: 0.5s ease;
 }
 .button:hover{
     border: 2px solid #ffffff;
 }
+
+
 /*Tab Size*/
 @media all and (max-width: 768px) {
-    #my-image2{
-        margin-top: 42px;
-        margin-left: 8px;
-        width: 250px;
-
+    #about h2{
+        font-size: 30px;
+        text-align: center;
     }
-    #details{
+    #my-image2>img{
+        width: 200px;
+        /* justify-content: center; */
+        margin-left: 110px;
+        margin-top: 25px;
+    }
+    #details>p{
+        width: 572px;
+        margin-top: 55px;
+        margin-left: -29px;
+        font-size: 25px;
+        padding: 30px;
+    }
+    #btn>button{
         margin-top: 10px;
-        margin-left: -40px;
-        padding: 15px;
-        font-size: 15px;
+
     }
     #btn{
-        margin-top: -295px;
-        margin-left: 325px;
+        margin-top: -500px;
+        margin-left: 375px;
     }
 }
+/*mobile Size*/
+@media all and (max-width: 435px) {
+    #about h2 {
+        font-size: 24px;
+        text-align: center;
+    }
 
+    #my-image2 > img {
+        width: 175px;
+        /* justify-content: center; */
+        margin-left: -65px;
+        margin-top: 25px;
+    }
+
+    #details > p {
+        width: 315px;
+        margin-top: 55px;
+        margin-left: -84px;
+        font-size: 21px;
+        padding: 20px;
+    }
+
+    #btn > button {
+        margin-top: 10px;
+    }
+
+    #btn {
+        margin-top: -480px;
+        margin-left: 150px;
+    }
+}
 
