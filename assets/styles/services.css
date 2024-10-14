@@ -45,6 +45,10 @@
         font-size: 30px;
         text-align: center;
     }
+    #card>div:hover{
+        width: 152px;
+        height: 217px;
+    }
 }
 @media all and (max-width: 435px) {
     #card>div{
@@ -54,5 +58,9 @@
     #service>div>h2{
         font-size: 24px;
         text-align: center;
+    }
+    #card>div:hover{
+        width: 102px;
+        height: 122px;
     }
 }
