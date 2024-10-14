@@ -28,7 +28,7 @@ header>nav{
     border-radius: 50px;
     position: fixed;
     text-align: center;
-    margin-left: 600px;
+    margin-left: 750px;
     display: flex;
     justify-content: space-between;
 
@@ -40,6 +40,7 @@ nav>a{
     display: inline-block;
     margin-top: 8px;
     margin-left: -34px;
+    text-decoration: none;
 
 }
 nav>a:hover{
