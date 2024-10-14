@@ -1,6 +1,6 @@
 #service{
-    padding: 100px;
-    margin-top: -200px;
+    padding: 50px;
+    margin-top: -160px;
 
 }
 #service>div>h2{
@@ -28,40 +28,29 @@
     color: #ffffff;
     padding: 50px;
 }
-#card>div:hover{
-    width: 202px;
-    height: 202px;
-}
 
 #card>div>img, h4{
     margin: auto;
 }
-@media all and (max-width: 768px) {
+@media all and (min-width: 435px) and (max-width: 768px) {
     #card>div{
-        width: 150px;
-        height: 215px;
+        width: 130px;
+        height: 150px;
     }
     #service>div>h2{
         font-size: 30px;
         text-align: center;
     }
-    #card>div:hover{
-        width: 152px;
-        height: 217px;
-    }
 }
 @media all and (max-width: 435px) {
     #card>div{
-        width: 100px;
-        height: 120px;
+        width: 170px;
+        height: 150px;
         font-size: 20px;
     }
     #service>div>h2{
         font-size: 24px;
         text-align: center;
     }
-    #card>div:hover{
-        width: 102px;
-        height: 122px;
-    }
+
 }
