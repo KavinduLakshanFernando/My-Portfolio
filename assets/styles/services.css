@@ -1,5 +1,5 @@
 #service{
-    padding: 150px;
+    padding: 100px;
     margin-top: -200px;
 
 }
@@ -16,23 +16,43 @@
     justify-content: space-evenly;
 }
 #card>div{
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding: 20px;
     box-shadow: 5px 8px 14px 2px rgb(100, 110, 110);
     border-radius: 30px;
-    max-width: 210px;
-    min-width: 180px;
-    min-height: 250px;
-    max-height: 350px;
+    width: 200px;
+    height: 200px;
     margin: 20px;
     color: #ffffff;
+    padding: 50px;
 }
 #card>div:hover{
-    /*border: 2px solid #f7f718;*/
+    width: 202px;
+    height: 202px;
 }
 
 #card>div>img, h4{
     margin: auto;
+}
+@media all and (max-width: 768px) {
+    #card>div{
+        width: 150px;
+        height: 215px;
+    }
+    #service>div>h2{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+@media all and (max-width: 435px) {
+    #card>div{
+        width: 100px;
+        height: 120px;
+    }
+    #service>div>h2{
+        font-size: 24px;
+        text-align: center;
+    }
 }
