@@ -25,7 +25,10 @@
     height: 270px;
     margin: 30px;
     color: #ffffff;
+    align-items: center;
 }
+
+/*Tab Size*/
 @media all and (max-width: 768px) {
     #project>div>h2{
         text-align: center;
@@ -55,9 +58,11 @@
         height: 240px;
         margin: 30px;
         color: #ffffff;
+        align-items: center;
     }
 }
 
+/*Mobile Size*/
 @media all and (max-width: 435px) {
     #project>div>h2{
         text-align: center;
@@ -87,5 +92,6 @@
         height: 270px;
         margin: 30px;
         color: #ffffff;
+        align-items: center;
     }
 }
